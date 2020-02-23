@@ -18,14 +18,29 @@ public class Main {
     double bmi = ((10000*waga)/(wzrost*wzrost));
 
     System.out.println("Twoje BMi wynosi: " +bmi);
-    if (bmi<16){
-        System.out.println("To wyglodzenie");
+    if (bmi>40){
+        System.out.println("otyłość skrajna");
     }
-    else if (bmi<17){
-        System.out.println("To niedowaga");
+    else if (bmi>35){
+        System.out.println("II stopień otyłoście");
     }
-    else{
-        System.out.println("");
+    else if (bmi>30){
+        System.out.println("I stopień otyłości");
+    }
+    else if (bmi>25){
+        System.out.println("nadwaga");
+    }
+    else if (bmi>18){
+        System.out.println("wartość prawidłowa");
+    }
+    else if (bmi>17){
+        System.out.println("niedowaga");
+    }
+    else if (bmi>16){
+        System.out.println("wychudzenie");
+    }
+    else if (bmi<16){
+        System.out.println("wygłodzenie");
     }
     }
 }
