@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Bmi {
 
     public static void main(String[] args) {
-        // write your code here
+        
         System.out.println("To jest kalkulator BMI, podaj swój wzrost w cm: ");
         Scanner input = new Scanner(System.in);
         double  wzrost = input.nextDouble();
