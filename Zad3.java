@@ -1,5 +1,5 @@
 package com.company;
-/* Kalkulator KCAL
+/* Zadanie 3. - Kalkulator KCAL
    Autor: Robert Brzoskowski
    Index: s21162
  */
