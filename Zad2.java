@@ -1,14 +1,14 @@
 package com.company;
-/* Kalkulator BMI
+/* Zadanie 2. - Kalkulator BMI
    Autor: Robert Brzoskowski
    Index: s21162
  */
 import java.util.Scanner;
 
-public class Bmi {
+public class Zad2 {
 
     public static void main(String[] args) {
-        
+
         System.out.println("To jest kalkulator BMI, podaj swój wzrost w cm: ");
         Scanner input = new Scanner(System.in);
         double  wzrost = input.nextDouble();
