@@ -3,7 +3,7 @@ package com.company;
    Autor: Robert Brzoskowski
    Index: s21162
  */
-public class Zad6{
+public class rectangle{
     public float width;
     public float height;
 
